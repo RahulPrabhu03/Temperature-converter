@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+<!-- CSS file -->
+<link rel="stylesheet" href="css/style.css">
+<style>
+    
+    body {
+        background-image: url("img/home.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Inconsolata', monospace;
+    }
+
+    @media(max-width:1115px) {
+        body {
+
+            background-size: auto;
+        }
+    }
+
+    @media(max-width:533px) and (max-height:627px) {
+        body {
+            background-size: auto;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <hr color="black" size="1">
+        <!-- Celcius -->
+        <div id="celcius">
+            <input type="number" name="" placeholder="Celcius value and press Enter">
+            <span class="icon">&#8451</span>
+        </div>
+        <!-- Fahrenheit -->
+        <div id="fahrenheit">
+            <input type="number" name="" placeholder="Fahrenheit value and press Enter">
+            <span class="icon">&#8457</span>
+        </div>
+        <!-- Kelvin -->
+        <div id="kelvin">
+            <input type="number" name="" placeholder="Kelvin value and press Enter ">
+            <span class="icon">&#8490</span>
+        </div>
+        <!-- All Clear Button -->
+        <div class="button">
+            <button>All Clear</button>
+        </div>
+    </div>
+    <!-- Script.js  -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

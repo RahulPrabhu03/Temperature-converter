@@ -1,0 +1,96 @@
+h1 {
+    padding-top: 2%;
+    color: black;
+    font-size: 40px;
+
+}
+/* Container */
+.container {
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    margin-top: 9%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.251);
+    font-family: 'Inconsolata', monospace;
+    border: 1px solid black;
+    flex-wrap: wrap;
+
+}
+
+.container h1 {
+    cursor: default;
+    
+}
+
+#celcius, #fahrenheit, #kelvin {
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 30px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+#kelvin {
+    padding-left: 67px;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    color: black;
+    font-family: 'Inconsolata', monospace;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    border-radius: 8px 0px 8px;
+
+}
+
+/* To remove arrow for number in input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.icon {
+    margin-top: 2px;
+    display: inline-block;
+    height: 50px;
+    width: 70px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#kelvin .icon {
+    padding-right: 5px;
+}
+/* Button */
+button {
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 35px;
+}
+
+.button button {
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
+
